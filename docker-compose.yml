@@ -9,7 +9,7 @@ services:
       - "3002:3000"
       - "3003:3002"
     volumes:
-      - ./tarjetones/tcrisis-newsletter/:/app # aqui va al carpeta del proyecto que se desea ejecutar
+      - ./tarjetones/fnbr-tarjetones-2021/:/app # aqui va al carpeta del proyecto que se desea ejecutar
       - /app/node_modules
     restart: unless-stopped
     networks:

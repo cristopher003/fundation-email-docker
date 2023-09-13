@@ -12,11 +12,11 @@ RUN apt-get install nodejs npm -y
 
 WORKDIR /app
 
-# COPY package.json del prouecto que necesitas
-COPY ./tarjetones/tcrisis-newsletter/package.json package-lock.json* ./
+# COPY package.json del proyecto que necesitas
+COPY ./tarjetones/fnbr-tarjetones-2021/package.json package-lock.json* ./
 
 #copia la carpeta del proyecto de tarjetones que necesitas
-COPY ./tarjetones/tcrisis-newsletter .
+COPY ./tarjetones/fnbr-tarjetones-2021 .
 
 RUN chmod -R 775 ./ 
 
@@ -24,8 +24,9 @@ RUN npm install --no-optional && npm cache clean --force
 
 EXPOSE 3000
 # Define el comando para ejecutar tu aplicación
-# RUN npm run build
-CMD ["npm", "start"]
 
+# CMD ["npm", "run","build"]
+
+CMD ["npm", "start"]
 # CMD ["/bin/bash"]
 
