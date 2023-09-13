@@ -1,23 +1,23 @@
-# fundation-email-docker   :tw-1f40b: 
+# fundation-email-docker  🐳 
 
-## Descripción :tw-1f4c4:
+## Descripción 📄
 
 Este es un repositorio que suple la necesidad de ejecutar el poyecto [Email Templates](https://get.foundation/emails/email-templates.html) de [fundation emails](https://get.foundation/emails.html) en un ambiente dockerizado.
 
 Este consta de  dos archivos, un Dockerfile y un docker-compose.yml.
 
-## Instalaciones necesarias :tw-1f4e2:
+## Instalaciones necesarias 📦
 
  - [Docker](https://www.docker.com/)
 
-## Dockerfile :tw-1f4c3:
+## Dockerfile 📜
 este archivo es imagen base con la cual se construirá el contendor, este consta de las configuraciones mínimas necesarias para la ejecución del proyecto:
 
  - debian:12.1 slim
  - python3
  - nodejs
 
-## Configuración :tw-1f527:
+## Configuración 🛠
 
  - una vez descargado el proyecto, se debe crear una carpeta, de preferencia que se llame **tarjetones**, en esta carpeta se deberán clonar los n repositorios de tarjenotes que se necesiten.
  
@@ -48,7 +48,7 @@ dada la naturaleza del proyecto, babel no reconoce los eventos que se lanzan al 
 
 *Puede comentar las que ya están por defecto y agregar estas.*
 
-## Ejecución :tw-1f680:
+## Ejecución 🚀
 
 para la ejecución del contenedor y levantar le proyecto puede ejecutar el siguiente comando:
 
@@ -56,7 +56,7 @@ para la ejecución del contenedor y levantar le proyecto puede ejecutar el sigui
 
 Esto levantará el contenedor con la aplicación de tarjetones correspondiente en la ruta http://localhost:3002/
 
-## Compilación :tw-23e9: 
+## Compilación 🧱
 
 por defecto el proyecto que se levanta en el contendor se ejecuta con un npm start, dada la necesidad de los archivos compilados, puede compilarlo con el siguiente comando:
 
@@ -74,26 +74,26 @@ Esto compilará el proyecto y generara la carpeta de **dist** correspondiente. A
 
 [========]
 
-# foundation-email-docker :tw-1f40b:
+# foundation-email-docker 🐳
 
-## Description :tw-1f4c4:
+## Description 📄
 
 This is a repository that meets the need to run the [Email Templates](https://get.foundation/emails/email-templates.html) project of [foundation emails](https://get.foundation/emails.html ) in a dockerized environment.
 
 It consists of two files, a Dockerfile and a docker-compose.yml.
 
-## Required installations :tw-1f4e2:
+## Required installations 📦
 
   - [Docker](https://www.docker.com/)
 
-## Dockerfile :tw-1f4c3:
+## Dockerfile 📜
 This file is the base image with which the container will be built, it consists of the minimum configurations necessary for the execution of the project:
 
   - debian:12.1 slim
   -python3
   -nodejs
 
-## Configuration :tw-1f527:
+## Configuration 🛠
 
   - once the project has been downloaded, a folder must be created, preferably called **cards**, in this folder the n card repositories needed should be cloned.
  
@@ -124,7 +124,7 @@ Given the nature of the project, babel does not recognize the events that are la
 
 *You can comment on the ones that are already default and add these.*
 
-## Execution :tw-1f680:
+## Execution 🚀
 
 To run the container and build the project you can execute the following command:
 
@@ -132,7 +132,7 @@ To run the container and build the project you can execute the following command
 
 This will raise the container with the corresponding card application at the path http://localhost:3002/
 
-## Build :tw-23e9:
+## Build 🧱
 
 By default, the project that is built in the container is executed with an npm start, given the need for the compiled files, you can compile it with the following command:
 
